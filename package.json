@@ -1,0 +1,13 @@
+{
+  "name": "winter",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "import:classes": "node MyGurukul/mygurukul/data/extra.mjs",
+    "seed:basic": "node MyGurukul/mygurukul/scripts/seed:basic.js",
+    "import:data": "node MyGurukul/mygurukul/scripts/classes.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.87.3"
+  }
+}
